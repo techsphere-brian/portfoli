@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brian - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+      <div class="container-fluid" bis_skin_checked="1">
+        <a class="navbar-brand" href="#">BRAIN</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarColor01"
+          bis_skin_checked="1"
+        >
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Services</a
+              >
+              <div class="dropdown-menu mt-3" bis_skin_checked="1">
+                <a class="dropdown-item" href="#">Cyber Solutions</a>
+                <a class="dropdown-item" href="#">Safaricom Data Solutions</a>
+                <a class="dropdown-item" href="#"
+                  >Computer Software Installations</a
+                >
+                <a class="dropdown-item" href="#">Web Developer</a>
+              </div>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Get Started</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="hero">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="images/tech world.jpg" class="d-flex w-100" alt="..." />
+            <div class="carousel-caption mb-md-5">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="images/tech-world-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption mb-md-5">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              class="w-75"
+              src="images/Customer Service Illustration Facebook Post.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6 justify-content-center">
+            <h2>About us</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum ullam corrupti deleniti ipsam distinctio possimus ut!
+              Nostrum aliquid ducimus nam. Autem officiis expedita vel quaerat
+              adipisci itaque excepturi vitae rerum in placeat debitis alias,
+              quia nemo nihil a amet voluptates. Ea ipsum, ipsam quidem eos
+              consectetur obcaecati deleniti neque officia!
+            </p>
+            <button class="btn btn-primary" type="submit">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container py-5">
+        <h2>Services</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Cyber Solutions</h3>
+            <i class="fas fa-server fa-lg"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+              veniam minus eveniet quidem veniam autem, quia voluptatibus
+              repudiandae, expedita quae beatae.
+            </p>
+            <button class="btn btn-primary" type="submit">
+              View All Services
+            </button>
+          </div>
+          <div class="col-md-4">
+            <h3>Safaricom Data Solutions</h3>
+            <i class="fas fa-database fa-lg"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+              veniam minus eveniet quidem veniam autem, quia voluptatibus
+              repudiandae, expedita quae beatae.
+            </p>
+            <button class="btn btn-primary" type="submit">
+              View All Services
+            </button>
+          </div>
+          <div class="col-md-4">
+            <h3>Computer Software Installations</h3>
+            <i class="fas fa-laptop fa-lg"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+              veniam minus eveniet quidem veniam autem, quia voluptatibus
+              repudiandae, expedita quae beatae.
+            </p>
+            <button class="btn btn-primary" type="submit">
+              View All Services
+            </button>
+          </div>
+          <div class="col-md-4">
+            <h3>Web Developer</h3>
+            <i class="fas fa-mobile-alt fa-lg"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+              veniam minus eveniet quidem veniam autem, quia voluptatibus
+              repudiandae, expedita quae beatae.
+            </p>
+            <button class="btn btn-primary" type="submit">
+              View All Services
+            </button>
+          </div>
+          <div class="col-md-4">
+            <h3>Data Analytics</h3>
+            <i class="fas fa-chart-line fa-lg"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+              veniam minus eveniet quidem veniam autem, quia voluptatibus
+              repudiandae, expedita quae beatae.
+            </p>
+            <button class="btn btn-primary" type="submit">
+              View All Services
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="container py-5">
+        <h2>Contact Us</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+    <div class="container py-5">
+      <div class="row">
+        <h2>Latest Projects</h2>
+        <div class="col-md-4">
+          <img
+            class="w-100"
+            src="images/Customer Service Illustration Facebook Post.jpg"
+            alt=""
+          />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
+            minima enim dolores necessitatibus beatae quidem nostrum, iusto
+            maiores natus eaque.
+          </p>
+          <button class="btn btn-primary" type="submit">View All</button>
+        </div>
+        <div class="col-md-4">
+          <img
+            class="w-100"
+            src="images/Customer Service Illustration Facebook Post.jpg"
+            alt=""
+          />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
+            minima enim dolores necessitatibus beatae quidem nostrum, iusto
+            maiores natus eaque.
+          </p>
+          <button class="btn btn-primary" type="submit">View All</button>
+        </div>
+        <div class="col-md-4">
+          <img
+            class="w-100"
+            src="images/Customer Service Illustration Facebook Post.jpg"
+            alt=""
+          />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
+            minima enim dolores necessitatibus beatae quidem nostrum, iusto
+            maiores natus eaque.
+          </p>
+          <button class="btn btn-primary" type="submit">View All</button>
+        </div>
+      </div>
+    </div>
+    <div class="flex fixed-bottom bg-dark vh-50">
+      <footer class="text-light">
+        <p>&copy; 2024 Reserved</p>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
